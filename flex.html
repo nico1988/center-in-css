@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            width: 500px;
+            height: 500px;
+            background: blue;
+            display: flex
+        }
+        .child {
+            width: 100px;
+            height: 100px;
+            background: chartreuse;
+            margin: auto;
+        }
+        .parent2 {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child2 {
+            width: 100px;
+            height: 100px;
+            background: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    <br>
+    <div class="parent parent2">
+        <div class="child2"></div>
+    </div>
+</body>
+</html>
